@@ -3,6 +3,10 @@
 Basic app for fleet vehicle data monitoring
 Python app using REST API
 
+Flask is a prerequisite, install to your environment with 'pip install Flask'
+
+Run program with 'python agapp.py'
+
 Instructions on use: 
 
 POST to http://localhost:5000/register_sensor with JSON data {"sensor_id": 1, "vin": "VIN123"} to register a sensor.
